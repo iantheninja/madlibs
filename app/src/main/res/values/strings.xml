@@ -1,5 +1,19 @@
 <resources>
     <string name="app_name">Madlibs</string>
-    <string name="slide_one_text">This is slide one</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">START</string>
 
+    <string name="slide_one_text">MadLibs</string>
+    <string name="slide_one_desc">Have fun on the go!</string>
+
+    <string name="slide_two_text">Fill the Blanks</string>
+
+    <string name="slide_three_text">Play</string>
+
+    <string name="slide_four_text">Have a laugh</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
 </resources>
