@@ -9,10 +9,13 @@
     <string name="slide_one_desc">Have fun on the go!</string>
 
     <string name="slide_two_text">Fill the Blanks</string>
+    <string name="slide_two_desc">Randomly enter words as instructed</string>
 
     <string name="slide_three_text">Play!</string>
+    <string name="slide_three_desc">Hit the play button!</string>
 
-    <string name="slide_four_text">Have a laugh</string>
+    <string name="slide_four_text">Laugh your ass off!</string>
+    <string name="slide_four_desc">Repeat!</string>
 
     <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
     <string name="play_again">Play Again</string>

@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/bg_screen1">
+    android:background="@color/bg_screen4">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -10,21 +10,21 @@
         android:gravity="center_horizontal"
         android:layout_centerInParent="true"
         android:orientation="vertical">
-        
+
         <ImageView
             android:layout_width="@dimen/img_width_height"
             android:layout_height="@dimen/img_width_height"
-            android:contentDescription="@string/slide_one_text"
+            android:contentDescription="@string/slide_two_text"
             android:layout_marginTop="40dp"
-            android:src="@drawable/notepad"/>
+            android:src="@drawable/laughing"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/slide_one_text"
+            android:text="@string/slide_four_text"
             android:textColor="@android:color/white"
-            android:layout_marginTop="@dimen/dots_margin_bottom"
             android:textSize="@dimen/slide_title"
+            android:layout_marginTop="@dimen/dots_margin_bottom"
             android:textStyle="bold" />
 
         <TextView
@@ -33,11 +33,10 @@
             android:layout_marginTop="20dp"
             android:paddingLeft="@dimen/desc_padding"
             android:paddingRight="@dimen/desc_padding"
-            android:text="@string/slide_one_desc"
+            android:text="@string/slide_four_desc"
             android:textAlignment="center"
             android:textColor="@android:color/white"
             android:textSize="@dimen/slide_desc"/>
 
     </LinearLayout>
-
 </RelativeLayout>
