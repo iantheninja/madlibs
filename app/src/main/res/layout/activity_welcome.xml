@@ -11,13 +11,13 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"/>
 
-    <LinearLayout
+    <LinearLayout android:id="@+id/layout_dots"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="@dimen/dots_height"
         android:orientation="horizontal"
-        android:layout_alignParentBottom="@dimen/dots_margin_bottom"
-        android:gravity="center"
-        android:id="@+id/layout_dots">
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dots_margin_bottom"
+        android:gravity="center">
 
     </LinearLayout>
 
